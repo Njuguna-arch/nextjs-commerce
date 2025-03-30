@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joseph Njuguna">
+    <meta name="about" content="An online trading marketplace">
+    <title>Joseph's Online Market</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <form class="container">
+        <fieldset>
+            <div class="login">
+                <h1>Create an Account</h1>
+            </div>
+            <label for="email">User Name:</label>
+            <input type="email" id="email" name="email_address" placeholder="Email or Phone Number" required> <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required> <br> <br>
+
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Re-enter your password" required> <br> <br>
+
+            <button type="button" id="suggestPasswordButton">Suggest Strong Password</button> <br> <br>
+            
+            <button type="submit" class="sign-up-button">Sign Up</button> <br> <br>
+
+            <p>Already have an account? <a href="z.html">Log-in</a></p>
+        </fieldset>
+    </form>
+    
+    <script src="passgen.js"></script>
+</body>
+</html>
